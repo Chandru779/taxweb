@@ -20,7 +20,7 @@ export default function Menu() {
     <>
       <ul className="menu_list scroll">
         <li className="dropdown-parrent">
-          <Link href="/index-6">Home</Link>
+          <Link href="/">Home</Link>
           {/* <ul className="theme-dropdown">
             <li className="multi-dropdown-parrent">
               <Link href="/">
@@ -73,18 +73,18 @@ export default function Menu() {
         </li>
         <li className="dropdown-parrent">
           <Link href="/about-1">About Us</Link>
-          <ul className="theme-dropdown">
+          {/* <ul className="theme-dropdown">
             <li>
               <Link href="/about-1">About Us - 1</Link>
             </li>
             <li>
               <Link href="/about-2">About Us - 2</Link>
             </li>
-          </ul>
+          </ul> */}
         </li>
         <li className="mega-menu-parrent">
-          <Link href="#">Pages</Link>
-          <ul className="theme-mega-menu">
+          <Link href="/service-2">Services</Link>
+          {/* <ul className="theme-mega-menu">
             <li className="mega-menu">
               <div className="single-mega-menu">
                 <h3 className="font-f-1">What We Do</h3>
@@ -232,11 +232,11 @@ export default function Menu() {
                 </ul>
               </div>
             </li>
-          </ul>
+          </ul> */}
         </li>
         <li className="dropdown-parrent">
-          <Link href="#">Blog</Link>
-          <ul className="theme-dropdown">
+          <Link href="price-1">Pricing</Link>
+          {/* <ul className="theme-dropdown">
             <li className="multi-dropdown-parrent">
               <Link href="#">
                 Blog{" "}
@@ -287,11 +287,11 @@ export default function Menu() {
                 </li>
               </ul>
             </li>
-          </ul>
+          </ul> */}
         </li>
         <li className="dropdown-parrent">
-          <Link href="#">Shop</Link>
-          <ul className="theme-dropdown">
+          <Link href="refund">Refund</Link>
+          {/* <ul className="theme-dropdown">
             <li className="multi-dropdown-parrent">
               <Link href="#">
                 Shop{" "}
@@ -342,18 +342,21 @@ export default function Menu() {
             <li>
               <Link href="/shop-inner-1">Shop Details</Link>
             </li>
-          </ul>
+          </ul> */}
         </li>
         <li className="dropdown-parrent">
-          <Link href="/about-1">Contact</Link>
-          <ul className="theme-dropdown">
+          <Link href="refund-estimate">Refund Estimate</Link>
+        </li>
+        <li className="dropdown-parrent">
+          <Link href="/contact-1">Contact</Link>
+          {/* <ul className="theme-dropdown">
             <li>
               <Link href="/contact-1">Contact 1</Link>
             </li>
             <li>
               <Link href="/contact-2">Contact 2</Link>
             </li>
-          </ul>
+          </ul> */}
         </li>
       </ul>
     </>

@@ -4,7 +4,7 @@ import Link from "next/link"
 export default function Customers() {
     return (
         <>
-            <div className="customers sp2">
+            <div className="customers sp2 bg-13">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-7 m-auto text-center">

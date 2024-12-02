@@ -20,7 +20,7 @@ export default function Page() {
                                             <h3 className="font-f-3">Product Strategy</h3>
                                             <p className="font-f-3">Crafting unique themes, features, and sophisticated integrations into a complete
                                                 experience has been our portfolio.</p>
-                                            <Link href="#" className="theme-btn-16">Learn More <img src="/assets/img/icons/angle-inner.svg" alt="" /></Link>
+                                            <Link href="#" className="theme-btn-16">Read More <img src="/assets/img/icons/angle-inner.svg" alt="" /></Link>
                                         </div>
                                     </div>
                                 </div>
@@ -33,7 +33,7 @@ export default function Page() {
                                             <h3 className="font-f-3">Market Research</h3>
                                             <p className="font-f-3">Crafting unique themes, features, and sophisticated integrations into a complete
                                                 experience has been our portfolio.</p>
-                                            <Link href="#" className="theme-btn-16">Learn More <img src="/assets/img/icons/angle-inner.svg" alt="" /></Link>
+                                            <Link href="#" className="theme-btn-16">Read More <img src="/assets/img/icons/angle-inner.svg" alt="" /></Link>
                                         </div>
                                     </div>
                                 </div>
@@ -46,7 +46,7 @@ export default function Page() {
                                             <h3 className="font-f-3">Product Management</h3>
                                             <p className="font-f-3">Crafting unique themes, features, and sophisticated integrations into a complete
                                                 experience has been our portfolio.</p>
-                                            <Link href="#" className="theme-btn-16">Learn More <img src="/assets/img/icons/angle-inner.svg" alt="" /></Link>
+                                            <Link href="#" className="theme-btn-16">Read More <img src="/assets/img/icons/angle-inner.svg" alt="" /></Link>
                                         </div>
                                     </div>
                                 </div>
@@ -59,7 +59,7 @@ export default function Page() {
                                             <h3 className="font-f-3">Business Strategy</h3>
                                             <p className="font-f-3">Crafting unique themes, features, and sophisticated integrations into a complete
                                                 experience has been our portfolio.</p>
-                                            <Link href="#" className="theme-btn-16">Learn More <img src="/assets/img/icons/angle-inner.svg" alt="" /></Link>
+                                            <Link href="#" className="theme-btn-16">Read More <img src="/assets/img/icons/angle-inner.svg" alt="" /></Link>
                                         </div>
                                     </div>
                                 </div>
@@ -72,7 +72,7 @@ export default function Page() {
                                             <h3 className="font-f-3">Marketing  Advertising</h3>
                                             <p className="font-f-3">Crafting unique themes, features, and sophisticated integrations into a complete
                                                 experience has been our portfolio.</p>
-                                            <Link href="#" className="theme-btn-16">Learn More <img src="/assets/img/icons/angle-inner.svg" alt="" /></Link>
+                                            <Link href="#" className="theme-btn-16">Read More <img src="/assets/img/icons/angle-inner.svg" alt="" /></Link>
                                         </div>
                                     </div>
                                 </div>
@@ -85,7 +85,7 @@ export default function Page() {
                                             <h3 className="font-f-3">User Acquisition</h3>
                                             <p className="font-f-3">Crafting unique themes, features, and sophisticated integrations into a complete
                                                 experience has been our portfolio.</p>
-                                            <Link href="#" className="theme-btn-16">Learn More <img src="/assets/img/icons/angle-inner.svg" alt="" /></Link>
+                                            <Link href="#" className="theme-btn-16">Read More <img src="/assets/img/icons/angle-inner.svg" alt="" /></Link>
                                         </div>
                                     </div>
                                 </div>
@@ -98,7 +98,7 @@ export default function Page() {
                                             <h3 className="font-f-3">Technology Consulting</h3>
                                             <p className="font-f-3">Crafting unique themes, features, and sophisticated integrations into a complete
                                                 experience has been our portfolio.</p>
-                                            <Link href="#" className="theme-btn-16">Learn More <img src="/assets/img/icons/angle-inner.svg" alt="" /></Link>
+                                            <Link href="#" className="theme-btn-16">Read More <img src="/assets/img/icons/angle-inner.svg" alt="" /></Link>
                                         </div>
                                     </div>
                                 </div>
@@ -111,23 +111,8 @@ export default function Page() {
                                             <h3 className="font-f-3">Go-To-Market Strategy</h3>
                                             <p className="font-f-3">Crafting unique themes, features, and sophisticated integrations into a complete
                                                 experience has been our portfolio.</p>
-                                            <Link href="#" className="theme-btn-16">Learn More <img src="/assets/img/icons/angle-inner.svg" alt="" /></Link>
+                                            <Link href="#" className="theme-btn-16">Read More <img src="/assets/img/icons/angle-inner.svg" alt="" /></Link>
                                         </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="space30" />
-                            <div className="row">
-                                <div className="col-12 m-auto">
-                                    <div className="theme-pagination text-center">
-                                        <ul>
-                                            <li><Link href="#"><i className="fa-solid fa-angle-left" /></Link></li>
-                                            <li><Link className="active" href="#">01</Link></li>
-                                            <li><Link href="#">02</Link></li>
-                                            <li>...</li>
-                                            <li><Link href="#">99</Link></li>
-                                            <li><Link href="#"><i className="fa-solid fa-angle-right" /></Link></li>
-                                        </ul>
                                     </div>
                                 </div>
                             </div>

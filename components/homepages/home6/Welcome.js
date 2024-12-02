@@ -4,7 +4,7 @@ import Link from "next/link"
 export default function Welcome() {
     return (
         <>
-            <div className="home6-full-header bg-cover" style={{ backgroundImage: 'url(assets/img/bg/hero6-bg.png)' }}>
+            <div className="home6-full-header bg-cover bg-13" >
                 <div className="welcome-4 home4-bg position-relative" id="home">
                     <div className="container">
                         <div className="row align-items-center">
@@ -21,9 +21,9 @@ export default function Welcome() {
                                         <div className="button6">
                                             <Link href="#">Schedule your appointment <span><i className="fa-solid fa-arrow-right" /></span> </Link>
                                         </div>
-                                        <div className="header6-button">
+                                        {/* <div className="header6-button">
                                             <Link href="#">Schdule A Call <span><i className="fa-solid fa-arrow-right" /></span></Link>
-                                        </div>
+                                        </div> */}
                                     </div>
                                 </div>
                             </div>

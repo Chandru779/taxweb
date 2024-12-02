@@ -97,7 +97,7 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }) {
                                 <li><Link href="/single-service-1">Service Details </Link></li>
                                 <li><Link href="/single-service-2">Details Right</Link></li>
                                 <li><Link href="/price-1">Pricing 1</Link></li>
-                                <li><Link href="/price-2">Pricing 2</Link></li>
+                                <li><Link href="/refund">Pricing 2</Link></li>
                                 <li><Link href="/contact-1">Contact 1</Link></li>
                                 <li><Link href="/contact-2">Contact 2</Link></li>
                                 <li><Link href="/case-study-1">Case Study 1</Link></li>

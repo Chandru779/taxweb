@@ -204,7 +204,7 @@ export default function Page() {
                     {/*=====Testimonial end=======*/}
                     {/*=====Team start=======*/}
                     <div className="team-2 section-padding2 inner-font-1">
-                        <div className="container">
+                        {/* <div className="container">
                             <div className="row">
                                 <div className="col-lg-8 m-auto">
                                     <div className="heading2 text-center">
@@ -361,7 +361,7 @@ export default function Page() {
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                     {/*=====Team end=======*/}
                     {/*=====Faqs start=======*/}

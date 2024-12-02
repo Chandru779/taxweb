@@ -87,6 +87,17 @@ img {
 .space10 {
   height: 10px;
 }
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 16px 8px ;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
 @media (max-width: 767px) {
   .space10 {
     height: 5px;
@@ -2550,16 +2561,16 @@ img {
 }
 @media (min-width: 992px) {
   .header-2 .main-menu ul li {
-    color: #FDC24C;
+    color: #7977C6;
   }
   .header-2 .main-menu ul li a:hover {
-    color: #FDC24C;
+    color: #7977C6;
   }
   .header-2 li.dropdown-parrent:hover > a {
-    color: #FDC24C;
+    color: #7977C6;
   }
   .header-2 li.dropdown-parrent ul.theme-dropdown li a:after {
-    background: #FDC24C;
+    background: #7977C6;
   }
   .header-2 .quick_contact .quick_contact_icon i {
     color: #243D31;
@@ -2764,11 +2775,11 @@ img {
 }
 
 .header-2 .main-menu ul li a.active {
-  color: #FDC24C;
+  color:#7977C6;
 }
 
 .header-3 .main-menu ul li a.active, .header-3 .main-menu ul li a:hover {
-  color: #F5D1A4;
+  color: #7977C6;
 }
 
 .header-4 .main-menu ul li a.active {
@@ -3450,7 +3461,7 @@ a.footer-logo {
   transition: all 0.3s;
 }
 .footer-2 .footer-menu ul li a:hover {
-  color: #FDC24C;
+  color: #7977C6;
   padding-left: 3px;
   transition: all 0.3s;
 }
@@ -6041,7 +6052,7 @@ img.shape-right-bottom {
   transition: all 0.3s;
 }
 .pricing2 a.price-btn.active, .pricing2 a.price-btn:hover {
-  background: #FDC24C;
+  background: #7977C6;
   transition: all 0.3s;
 }
 .pricing2 .price-body h4 {

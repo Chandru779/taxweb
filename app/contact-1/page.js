@@ -155,7 +155,7 @@ export default function Page() {
                                             <img src="/assets/img/icons/arrow-up-right-inner-1.svg" alt="" /></Link>
                                     </div>
                                 </div>
-                                <div className="col-lg-4 col-md-6">
+                                {/* <div className="col-lg-4 col-md-6">
                                     <div className="single-office">
                                         <div className="office-icon">
                                             <img src="/assets/img/icons/telegram.png" alt="" />
@@ -196,7 +196,7 @@ export default function Page() {
                                         <Link href="#" className="theme-btn-13">Get Direction
                                             <img src="/assets/img/icons/arrow-up-right-inner-1.svg" alt="" /></Link>
                                     </div>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                         <div className="shape-007">

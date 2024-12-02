@@ -61,7 +61,7 @@ export default function Layout({ headerStyle, footerStyle, headTitle, breadcrumb
             {footerStyle == 5 ? < Footer5 /> : null}
             {footerStyle == 6 ? < Footer6 /> : null}
 
-            <DemoSidebar />
+            {/* <DemoSidebar /> */}
 
             <BackToTop scroll={scroll} />
         </>

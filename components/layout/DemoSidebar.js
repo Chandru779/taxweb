@@ -255,11 +255,11 @@ export default function DemoSidebar() {
                                 <div className="demo-sidebar-item-img">
                                     <img src="/assets/img/demos/price-2.jpg" alt="" />
                                     <div className="demo-sidebar-buttons">
-                                        <Link href="/price-2">View Page</Link>
+                                        <Link href="/refund">View Page</Link>
                                     </div>
                                 </div>
                                 <div className="demo-item-content">
-                                    <Link href="/price-2">Price 2</Link>
+                                    <Link href="/refund">Price 2</Link>
                                 </div>
                             </div>
                             <div className="single-demo-sidebar-item">

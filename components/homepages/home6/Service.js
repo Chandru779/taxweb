@@ -4,7 +4,7 @@ import Link from "next/link"
 export default function Service() {
     return (
         <>
-            <div className="service6 sp2">
+            <div className="service6 sp2 bg-13">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-7 m-auto text-center">

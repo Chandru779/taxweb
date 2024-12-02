@@ -26,6 +26,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu }) {
                                         </div>
                                         <div className="quick_contact_content">
                                             <small>Hotline 24/7</small>
+                                            {/* <small>mail@gmail.com</small> */}
                                             <Link href="/tel:+49 30 923325544">+49 30 923325544</Link>
                                         </div>
                                     </div>

@@ -16,20 +16,20 @@ export default function Footer1() {
                         </div>
                         <div className="col-lg col-md-6">
                             <div className="single-footer">
-                                <h3>Learn</h3>
+                                <h3>Our services</h3>
                                 <div className="footer-menu">
                                     <ul>
-                                        <li><Link href="#">Product</Link></li>
-                                        <li><Link href="#">Pricing</Link></li>
+                                        <li><Link href="/">Product</Link></li>
+                                        <li><Link href="/price-1">Pricing</Link></li>
+                                        <li><Link href="/service-2">Services</Link></li>
                                         <li><Link href="#">Schedule a demo</Link></li>
-                                        <li><Link href="#">Our Blog</Link></li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
                         <div className="col-lg col-md-6">
                             <div className="single-footer">
-                                <h3>Our Company</h3>
+                                <h3>Quick links</h3>
                                 <div className="footer-menu">
                                     <ul>
                                         <li><Link href="#">About us</Link></li>
@@ -75,7 +75,7 @@ export default function Footer1() {
                                     </li>
                                     <li><Link data-bs-toggle="tooltip" title="Facebook" href="#"><i className="fa-brands fa-facebook-f" /></Link></li>
                                     <li><Link data-bs-toggle="tooltip" title="Instagram" href="#"><i className="fa-brands fa-instagram" /></Link></li>
-                                    <li><Link data-bs-toggle="tooltip" title="TikTok" href="#"><i className="fa-brands fa-tiktok" /></Link></li>
+                                    {/* <li><Link data-bs-toggle="tooltip" title="TikTok" href="#"><i className="fa-brands fa-tiktok" /></Link></li> */}
                                 </ul>
                             </div>
                         </div>

@@ -644,7 +644,7 @@ line-height: 28px;
   left: 0;
   height: 100%;
   width: 100%;
-  background: var(--accent-primary, #026939);
+  background:#7977C6;
 border-radius: 5px;
 display: inline-block;
 z-index: -2;
@@ -658,7 +658,7 @@ border-radius: 5px;
   left: 0;
   height: 100%;
   width: 0%;
-background: var(--accent-secondary, #FFDE11);
+background: var(--accent-secondary, #161540);
 border-radius: 5px;
 display: inline-block;
 z-index: -1;
@@ -677,7 +677,6 @@ transition: all.4s;
 }
 
 .button6 a:hover {
-  color: #272937;
   transition: all.4s;
   box-shadow: 0px 4px 25px 0px rgba(2, 105, 57, 0.20);
 
@@ -725,7 +724,7 @@ transition: all.4s;
   left: 0;
   height: 100%;
   width: 100%;
-  background: var(--accent-secondary, #FFDE11);
+  background: var(--accent-secondary, #161540);
 border-radius: 5px;
 display: inline-block;
 z-index: -2;
@@ -793,7 +792,7 @@ background: var(--accent-primary, #026939);
 }
 .titel6-main h1 span.after6 {
   position: relative;
-  color: #026939;
+  color: #7977C6;
 }
 
 .titel6-main h1 span.after6::after {
@@ -803,12 +802,12 @@ background: var(--accent-primary, #026939);
   left: 0;
   height: 5px;
   width: 100%;
-  background-color: #026939;
+  background-color: #7977C6;
 }
 
 .hadding6 h1 span.after6 {
   position: relative;
-  color: #026939;
+  color: #7977C6;
 }
 
 .hadding6 h1 span.after6::after {
@@ -818,7 +817,7 @@ background: var(--accent-primary, #026939);
   left: 0;
   height: 5px;
   width: 100%;
-  background-color: #026939;
+  background-color: #7977C6;
 }
 
 @media screen and (max-width: 769px) {
@@ -1011,14 +1010,14 @@ line-height: 28px;
 }
 
 .resive-button a {
-  color: var(--accent-primary, #026939);
+  color: #7977C6;
 text-align: right;
 display: inline-block;
 font-size: 16px;
 font-style: normal;
 font-weight: 600;
 line-height: 24px;
-border-bottom: 1px solid #026939;
+border-bottom: 1px solid #7977C6;
 margin-top: 30px;
 transition: all.4s;
 }
@@ -1035,7 +1034,7 @@ transition: all.4s;
 
 /*=====home6 service area ===== */
 .service6 {
-  background-image: url(../img/bg/serive6-bg.png);
+  /* background-image: url(../img/bg/serive6-bg.png); */
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1103,7 +1102,7 @@ line-height: 18px;
 .customers6-hadding ul li {
   font-size: 16px;
   margin: 0 2px;
-  color: #FFDE11;
+  color: #161540;
 }
 .customers6-img-box-all {
   display: flex;
@@ -1140,7 +1139,7 @@ padding: 20px 0 0 0;
   }
 
 .customers {
-  background: var(--accent-primary-bg-10, rgba(2, 105, 57, 0.10));
+  /* background: var(--accent-primary-bg-10, rgba(2, 105, 57, 0.10)); */
 }
 /*=====home6 customers area ===== */
 
@@ -1318,7 +1317,7 @@ margin-top: 20px;
   left: 0;
   height: 100%;
   width: 100%;
-  background: var(--accent-primary, #026939);
+  background: #7977C6;
 border-radius: 5px;
 display: inline-block;
 z-index: -2;
@@ -1332,7 +1331,7 @@ border-radius: 5px;
   left: 0;
   height: 100%;
   width: 0%;
-background: var(--accent-secondary, #FFDE11);
+background: var(--accent-secondary, #161540);
 border-radius: 5px;
 display: inline-block;
 z-index: -1;
@@ -1351,7 +1350,7 @@ transition: all.4s;
 }
 
 .button6 button:hover {
-  color: #272937;
+  color: white;
   transition: all.4s;
   box-shadow: 0px 4px 25px 0px rgba(2, 105, 57, 0.20);
 
