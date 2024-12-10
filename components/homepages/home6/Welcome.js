@@ -20,9 +20,6 @@ export default function Welcome() {
                                         <div className="button6">
                                             <Link href="#contactsec">Schedule your appointment <span><i className="fa-solid fa-arrow-right" /></span> </Link>
                                         </div>
-                                        {/* <div className="header6-button">
-                                            <Link href="#">Schdule A Call <span><i className="fa-solid fa-arrow-right" /></span></Link>
-                                        </div> */}
                                     </div>
                                 </div>
                             </div>
