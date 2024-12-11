@@ -1,7 +1,32 @@
+'use client'
 
+import { useState } from 'react'
 import Layout from "@/components/layout/Layout"
 import Link from "next/link"
+
+import submitForm from './../../util/submitForm'
+
 export default function Page() {
+
+  const [files, setFiles] = useState([]);
+  const [formData, setFormData] = useState({});
+
+  const handleFileChange = (e) => {
+    setFiles(e.target.files);
+  };
+
+  const handleInputChange = (e) => {
+    const { name, value } = e.target;
+    setFormData({
+      ...formData,
+      [name]: value,
+    });
+  };
+
+    function handleSubmit(e) {
+        e.preventDefault();
+        submitForm(formData, files)
+    }
 
     return (
         <>
@@ -64,29 +89,29 @@ export default function Page() {
                                 </div>
                                 <div className="col-lg-8" id="">
                                     <div className="main-form">
-                                        <form>
+                                        <form onSubmit={handleSubmit}>
                                             <div className="row">
                                                 <div className="col-lg-6">
-                                                    <input type="text" name="fname" placeholder="First Name" />
+                                                    <input type="text" name="firstName" placeholder="First Name" value={formData.firstName} onChange={handleInputChange} />
                                                 </div>
                                                 <div className="col-lg-6">
-                                                    <input type="text" name="lname" placeholder="Last Name" />
+                                                    <input type="text" name="lastName" placeholder="Last Name" value={formData.lastName} onChange={handleInputChange} />
                                                 </div>
                                                 <div className="col-12">
-                                                    <input type="email" name="email" placeholder="Email Address" />
+                                                    <input type="email" name="email" placeholder="Email Address" value={formData.email} onChange={handleInputChange} />
                                                 </div>
                                                 <div className="col-lg-6">
-                                                    <input type="text" name="service" placeholder="Service Interested In" />
+                                                    <input type="text" name="interestedService" placeholder="Service Interested In" value={formData.interestedService} onChange={handleInputChange} />
                                                 </div>
                                                 <div className="col-lg-6">
-                                                    <input type="text" name="subject" placeholder="Subject" />
+                                                    <input type="text" name="subject" placeholder="Subject" value={formData.subject} onChange={handleInputChange} />
                                                 </div>
                                                 <div className="col-12">
-                                                    <textarea name="message" cols={30} rows={5} placeholder="Let us know your tax-related question" />
+                                                    <textarea name="message" cols={30} rows={5} placeholder="Let us know your tax-related question" value={formData.message} onChange={handleInputChange} />
                                                 </div>
                                                 <div className="col-12">
                                                     <button type="submit" className="full-btn theme-btn-11">
-                                                        Submit
+                                                        Submit 
                                                     </button>
                                                 </div>
                                             </div>
