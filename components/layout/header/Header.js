@@ -10,8 +10,8 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu }) {
                         <div className="col-12">
                             <div className="header-elements">
                                 <div className="header_menu_area">
-                                    <div className="logo">
-                                        <Link href="/"><img src="/assets/img/logo/site-logo-3.svg" alt="" /></Link>
+                                    <div className="logo" style={{width:"120px"}} >
+                                        <Link href="/"><img src="/assets/img/logo/evobrand.svg" style={{width:"100%",height:"100%"}} alt="" /></Link>
                                     </div>
                                     <div className="main-menu">
                                         <div className="menu-wrap">

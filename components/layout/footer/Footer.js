@@ -7,7 +7,7 @@ export default function Footer() {
                     <div className="row">
                         <div className="col-lg-4 col-md-6">
                             <div className="single-footer mr50">
-                                <Link href="/" className="footer-logo"> <img src="/assets/img/logo/site-logo-3.svg" alt="" /></Link>
+                                <Link href="/" className="footer-logo" style={{width:"120px"}}> <img src="/assets/img/logo/evobrand.svg" alt="" /></Link>
                                 <div className="space20" />
                                 <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
                                     consequat duis
