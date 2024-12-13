@@ -1,11 +1,12 @@
-
+"use client";
+import useEmailSubscribeForm from "@/hooks/useEmailSubscribeForm";
 import CounterUp from "@/components/elements/CounterUp"
 import Faq1 from "@/components/elements/Faq1"
 import Layout from "@/components/layout/Layout"
 import TestimonialSlider3 from "@/components/slider/TestimonialSlider3"
-import Link from "next/link"
-export default function Page() {
 
+export default function Page() {
+    const { formData, handleInputChange, handleSubmit } = useEmailSubscribeForm();
 
     return (
         <>
@@ -220,8 +221,8 @@ export default function Page() {
                                 <div className="col-lg-5 col-md-6 offset-lg-1">
                                     <div className="sunscribe-form">
                                         <div className="subscribe-from-wrap">
-                                            <form action="#">
-                                                <input type="email" placeholder="Email Address" />
+                                            <form onSubmit={handleSubmit}>
+                                                <input type="email" name='email' value={formData.email} placeholder="Email Address"  onChange={handleInputChange} required />
                                                 <button type="submit" name="button">
                                                     Subscribe Now
                                                     <img src="/assets/img/icons/arrow-up-right.svg" alt="" />

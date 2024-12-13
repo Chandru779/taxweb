@@ -26,7 +26,7 @@ export default function NotFound() {
                                                 moved. Here are some helpful links.
                                             </p>
                                             <div className="space30" />
-                                            <a className="theme-btn-11" href="#">Take me home</a>
+                                            <a className="theme-btn-11" href="/">Take me home</a>
                                         </div>
                                     </div>
                                 </div>

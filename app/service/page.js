@@ -1,6 +1,10 @@
+"use client";
+import useEmailSubscribeForm from "@/hooks/useEmailSubscribeForm";
 import Layout from "@/components/layout/Layout";
-import Link from "next/link";
+
 export default function Page() {
+  const { formData, handleInputChange, handleSubmit } = useEmailSubscribeForm();
+
   return (
     <>
       <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Services">
@@ -161,8 +165,8 @@ export default function Page() {
                 <div className="col-lg-5 col-md-6 offset-lg-1">
                   <div className="sunscribe-form">
                     <div className="subscribe-from-wrap">
-                      <form action="#">
-                        <input type="email" placeholder="Email Address" />
+                      <form onSubmit={handleSubmit}>
+                      <input type="email" name='email' value={formData.email} placeholder="Email Address"  onChange={handleInputChange} required />
                         <button type="submit" name="button">
                           Subscribe Now{" "}
                           <img

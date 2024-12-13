@@ -1,11 +1,12 @@
 {
-  "name": "consultia",
+  "name": "taxweb",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "export": "next export",
     "lint": "next lint",
     "sass": "sass --watch public/assets/scss/main.scss:public/assets/css/main.css"
   },

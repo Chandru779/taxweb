@@ -1,19 +1,26 @@
 "use client";
 import { useRef, useState } from "react";
-import { toast, ToastContainer } from "react-toastify";
+import { toast } from "react-toastify";
 import Layout from "@/components/layout/Layout";
 import submitForm from './../../util/submitForm';
 
 export default function Page() {
+  const initialFormData = {
+    'firstName': '',
+    'lastName': '',
+    'phoneNumber': '',
+    'subject': '',
+    'formType': 'refund-estimate'
+  };
   const inputRef = useRef();
   const [files, setFiles] = useState([]);
-  const [formData, setFormData] = useState({});
+  const [formData, setFormData] = useState(initialFormData);
 
   const MAX_FILE_SIZE_MB = 10; // Max file size in MB
   const MAX_FILE_SIZE_BYTES = MAX_FILE_SIZE_MB * 1024 * 1024; // Convert MB to Bytes
 
   function resetForm() {
-    setFormData({});
+    setFormData(initialFormData);
     setFiles([]);
     inputRef.current.value = null; 
   };
@@ -36,9 +43,7 @@ export default function Page() {
 
   function handleSubmit(e) {
     e.preventDefault();
-    submitForm(formData, files);
-    toast.success("Form submitted successfully!");
-    resetForm();
+    submitForm(formData, resetForm, files);
   }
 
   function formatFileSize(sizeInBytes) {
@@ -147,7 +152,7 @@ export default function Page() {
                         )}
                       </div>
                       <div className="col-lg-8 mb-3">
-                        <button type="submit" className="full-btn theme-btn-11" onSubmit={handleSubmit}>
+                        <button type="submit" className="full-btn theme-btn-11">
                           Submit
                         </button>
                       </div>
@@ -158,7 +163,6 @@ export default function Page() {
             </div>
           </div>
         </div>
-        <ToastContainer position="top-right" autoClose={3000} hideProgressBar closeOnClick pauseOnHover />
       </Layout>
 
     </>

@@ -2,6 +2,7 @@
 'use client'
 import AOS from 'aos'
 import { useEffect, useState } from "react"
+import { ToastContainer } from "react-toastify";
 import BackToTop from '../elements/BackToTop'
 import Breadcrumb from './Breadcrumb'
 import MobileMenu from './MobileMenu'
@@ -34,8 +35,9 @@ export default function Layout({ headerStyle, footerStyle, headTitle, breadcrumb
 
             {breadcrumbTitle && <Breadcrumb breadcrumbTitle={breadcrumbTitle} />}
             {children}
-
+            
             < Footer />
+            <ToastContainer position="top-right" autoClose={3000} hideProgressBar closeOnClick pauseOnHover />
             <BackToTop scroll={scroll} />
         </>
     )

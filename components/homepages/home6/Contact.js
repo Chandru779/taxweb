@@ -1,7 +1,39 @@
+"use client";
 
 import Link from "next/link"
+import { useState } from "react";
+import submitForm from './../../../util/submitForm';
 
 export default function Contact() {
+
+    const initialFormData = {
+        'firstName': '',
+        'lastName': '',
+        'phoneNumber': '',
+        'subject': '',
+        'message': '',
+        'email': '',
+        'formType': 'contact-enquiry'
+      };
+
+      const [formData, setFormData] = useState(initialFormData);
+      function resetForm() {
+        setFormData(initialFormData); 
+      };
+    
+      const handleInputChange = (e) => {
+        const { name, value } = e.target;
+        setFormData((prevState) => ({ ...prevState, [name]: value }));
+      };
+    
+      function handleSubmit(e) {
+        e.preventDefault();
+        console.log('handleSubmit formData ', formData)
+        submitForm(formData, null, []);
+        console.log('resetForm ')
+        resetForm()
+      }
+
     return (
         <>
             <div className="contct6 sp2" id="contactsec">
@@ -49,7 +81,7 @@ export default function Contact() {
                                         </div>
                                         <div className="contact6-hadding hadding6">
                                             <h4><Link href="#" className="font-f-7">Call Us</Link></h4>
-                                            <Link href="/tel:206330-8538">(206) 330-8538</Link>
+                                            <Link href="tel:206330-8538">(206) 330-8538</Link>
                                         </div>
                                     </div>
                                 </div>
@@ -60,7 +92,7 @@ export default function Contact() {
                                         </div>
                                         <div className="contact6-hadding hadding6">
                                             <h4><Link href="#" className="font-f-7">Email Us</Link></h4>
-                                            <Link href="/malto:echaleganas@gmail.com">hello@evotaxes.com</Link>
+                                            <Link href="mailto:echaleganas@gmail.com">hello@evotaxes.com</Link>
                                         </div>
                                     </div>
                                 </div>
@@ -85,7 +117,7 @@ export default function Contact() {
                                     <div className="space10" />
                                     <p>Schedule your appointment with us.</p>
                                 </div>
-                                <form action="#">
+                                <form onSubmit={handleSubmit}>
                                     <div className="form-input-all">
                                         <div className="form-input-box">
                                             <div className="row">
@@ -93,7 +125,7 @@ export default function Contact() {
                                                     <div className="input-single6">
                                                         <div >
                                                             <label >First Name</label>
-                                                            <input type="text" placeholder="First Name" />
+                                                            <input type="text" name="firstName" value={formData.firstName} placeholder="First Name" onChange={handleInputChange} required />
                                                         </div>
                                                     </div>
                                                 </div>
@@ -101,7 +133,7 @@ export default function Contact() {
                                                     <div className="input-single6">
                                                         <div >
                                                             <label >Last Name</label>
-                                                            <input type="text" placeholder="Last Name" />
+                                                            <input type="text" name="lastName" value={formData.lastName} placeholder="Last Name" onChange={handleInputChange} required />
                                                         </div>
                                                     </div>
                                                 </div>
@@ -113,7 +145,7 @@ export default function Contact() {
                                                     <div className="input-single6">
                                                         <div >
                                                             <label >Phone Number</label>
-                                                            <input type="number" placeholder="Phone" />
+                                                            <input type="number" name="phoneNumber" value={formData.phoneNumber} placeholder="Phone" onChange={handleInputChange} required />
                                                         </div>
                                                     </div>
                                                 </div>
@@ -121,7 +153,7 @@ export default function Contact() {
                                                     <div className="input-single6">
                                                         <div >
                                                             <label >Email Address</label>
-                                                            <input type="email" placeholder="Email Address" />
+                                                            <input type="email" name="email" value={formData.email} placeholder="Email Address" onChange={handleInputChange} required />
                                                         </div>
                                                     </div>
                                                 </div>
@@ -133,7 +165,7 @@ export default function Contact() {
                                                     <div className="input-single6">
                                                         <div >
                                                             <label >Subject</label>
-                                                            <input type="text" placeholder="Subject" />
+                                                            <input type="text" name="subject" value={formData.subject} placeholder="Subject" onChange={handleInputChange} required />
                                                         </div>
                                                     </div>
                                                 </div>
@@ -141,7 +173,7 @@ export default function Contact() {
                                         </div>
                                         <div className="contact6-from-input">
                                             <label >Massage</label>
-                                            <textarea cols={30} rows={3} placeholder="Additional Details" />
+                                            <textarea cols={30} rows={3} name="message" value={formData.message} placeholder="Additional Details" onChange={handleInputChange} required />
                                         </div>
                                         <div className="space20" />
                                         <div className="button6">
