@@ -19,7 +19,7 @@ export default function Footer() {
                                 <h3>Our services</h3>
                                 <div className="footer-menu">
                                     <ul>
-                                        <li><Link href="/service">Federal & State Filing</Link></li>
+                                        <li><Link href="/service/#service2">Federal & State Filing</Link></li>
                                         <li><Link href="/service">Tax Representation</Link></li>
                                         <li><Link href="/service">ITIN Preparation</Link></li>
                                         <li><Link href="/service">Advanced Tax Planning</Link></li>

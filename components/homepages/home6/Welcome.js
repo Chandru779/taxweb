@@ -29,6 +29,7 @@ export default function Welcome() {
                                         <img src="/assets/img/shapes/header6-main-shpe.svg" alt="" />
                                     </div>
                                     <div className="home6-header-img2" data-aos="zoom-out" data-aos-duration={800}>
+                                        {/* <img src="/assets/img/image/home6-main-header.png" alt="" /> */}
                                         <img src="/assets/img/image/home6-main-header.png" alt="" />
                                     </div>
                                     <div className="home6-header-img3 aniamtion-key-1" data-aos="zoom-out" data-aos-duration={1200}>

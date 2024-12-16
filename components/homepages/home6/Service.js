@@ -16,7 +16,7 @@ export default function Service() {
                     </div>
                     <div className="space30" />
                     <div className="row">
-                        <div className="col-lg-6" data-aos="fade-up" data-aos-duration={700}>
+                        <div className="col-lg-6" data-aos="fade-up" data-aos-duration={700} id="service1">
                             <div className="service6-box">
                                 <div >
                                     <div className="service-box-icon">
@@ -29,7 +29,7 @@ export default function Service() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-6" data-aos="fade-up" data-aos-duration={800}>
+                        <div className="col-lg-6" data-aos="fade-up" data-aos-duration={800} id="service2">
                             <div className="service6-box">
                                 <div >
                                     <div className="service-box-icon">
