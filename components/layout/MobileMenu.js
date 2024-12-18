@@ -24,8 +24,8 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }) {
                 <div className="container-fluid">
                     <div className="col-12">
                         <div className="mobile-header-elements">
-                            <div className="mobile-logo">
-                                <Link href="/"><img src="/assets/img/logo/site-logo-6.svg" alt="" /></Link>
+                            <div className="mobile-logo" style={{width:"120px"}}>
+                                <Link href="/"><img src="/assets/img/logo/evobrand.svg" alt="" /></Link>
                             </div>
                             <div className="mobile-nav-icon" onClick={handleMobileMenu}>
                                 <i className="fa-solid fa-bars" />
@@ -46,7 +46,7 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }) {
                         </li>
                         <li><Link href="/about">About us</Link>
                         </li>
-                        <li><Link href="/service">Service</Link>
+                        <li><Link href="/service">Services</Link>
                         </li>
                         <li><Link href="/price">Pricing</Link>
                         </li>

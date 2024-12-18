@@ -30,7 +30,7 @@ export default function HowItWork() {
                                 </div>
                                 <div className="work6-hadding">
                                     <h4 className="font-f-7"><Link href="#">Schedule a Consultation</Link></h4>
-                                    <p className="font-f-7">Book a session with our expert team to discuss your tax needs and gather necessary documents.
+                                    <p className="font-f-7" style={{color:'white'}}>Book a session with our expert team to discuss your tax needs and gather necessary documents.
                                     </p>
                                 </div>
                                 <div className="work6-shape">
@@ -45,7 +45,7 @@ export default function HowItWork() {
                                 </div>
                                 <div className="work6-hadding">
                                     <h4 className="font-f-7"><Link href="#">We Prepare Your Taxes</Link></h4>
-                                    <p className="font-f-7">Our experienced professionals handle your Federal & State Filing, ITIN Preparation, and tax planning with precision.
+                                    <p className="font-f-7" style={{color:'white'}}>Our experienced professionals handle your Federal & State Filing, ITIN Preparation, and tax planning with precision.
                                     </p>
                                 </div>
                                 <div className="work6-shape">
@@ -60,7 +60,7 @@ export default function HowItWork() {
                                 </div>
                                 <div className="work6-hadding">
                                     <h4 className="font-f-7"><Link href="#">File and Enjoy Your Refund</Link></h4>
-                                    <p className="font-f-7">Once your taxes are prepared, you can confidently file your return and look forward to your refund.
+                                    <p className="font-f-7" style={{color:'white'}}>Once your taxes are prepared, you can confidently file your return and look forward to your refund.
                                     </p>
                                 </div>
                             </div>

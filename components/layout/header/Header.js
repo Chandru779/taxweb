@@ -13,12 +13,13 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu }) {
                                     <div className="logo" style={{width:"120px"}} >
                                         <Link href="/"><img src="/assets/img/logo/evobrand.svg" style={{width:"100%",height:"100%"}} alt="" /></Link>
                                     </div>
-                                    <div className="main-menu">
+                                    
+                                </div>
+                                <div className="main-menu">
                                         <div className="menu-wrap">
                                             <Menu />
                                         </div>
                                     </div>
-                                </div>
                                 <div className="desktop-info">
                                     <div className="quick_contact">
                                         <div className="quick_contact_icon bg-27">
@@ -27,7 +28,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu }) {
                                         <div className="quick_contact_content">
                                             <small>Hotline 24/7</small>
                                             {/* <small>mail@gmail.com</small> */}
-                                            <Link href="/tel:+49 30 923325544">+49 30 923325544</Link>
+                                            <Link href="tel:+49 30 923325544">+49 30 923325544</Link>
                                         </div>
                                     </div>
                                 </div>

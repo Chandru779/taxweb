@@ -2,16 +2,14 @@ import Link from "next/link"
 export default function Footer() {
     return (
         <>
-            <footer className="footer-area padding-top footer-2 bg9">
+            <footer className="footer-area padding-top footer-2 bg-10">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-4 col-md-6">
                             <div className="single-footer mr50">
                                 <Link href="/" className="footer-logo" style={{width:"120px"}}> <img src="/assets/img/logo/evobrand.svg" alt="" /></Link>
                                 <div className="space20" />
-                                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
-                                    consequat duis
-                                    enim velit mollit.</p>
+                                <p>Tax preparation and legal services designed to optimize refunds through strategic deductions for individuals & businesses.</p>
                             </div>
                         </div>
                         <div className="col-lg col-md-6">
@@ -19,12 +17,12 @@ export default function Footer() {
                                 <h3>Our services</h3>
                                 <div className="footer-menu">
                                     <ul>
-                                        <li><Link href="/service/#service2">Federal & State Filing</Link></li>
-                                        <li><Link href="/service">Tax Representation</Link></li>
-                                        <li><Link href="/service">ITIN Preparation</Link></li>
-                                        <li><Link href="/service">Advanced Tax Planning</Link></li>
-                                        <li><Link href="/service">FBAR & FATCA Compliance</Link></li>
-                                        <li><Link href="/service">Amendment Filing</Link></li>
+                                        <li><Link href="/service#federalstatefiling">Federal & State Filing</Link></li>
+                                        <li><Link href="/service#taxrepresentation">Tax Representation</Link></li>
+                                        <li><Link href="/service#itinpreparation">ITIN Preparation</Link></li>
+                                        <li><Link href="/service#advancedtaxfiling">Advanced Tax Planning</Link></li>
+                                        <li><Link href="/service#compliance">FBAR & FATCA Compliance</Link></li>
+                                        <li><Link href="/service#amendment">Amendment Filing</Link></li>
                                     </ul>
                                 </div>
                             </div>
@@ -34,12 +32,12 @@ export default function Footer() {
                                 <h3>Quick links</h3>
                                 <div className="footer-menu">
                                     <ul>
-                                        <li><Link href="/">Product</Link></li>
-                                        <li><Link href="#">About us</Link></li>
-                                        <li><Link href="#">Pricing</Link></li>
-                                        <li><Link href="#">Refund</Link></li>
-                                        <li><Link href="#">Refund Estimate</Link></li>
-                                        <li><Link href="#">Privacy&Policy</Link></li>
+                                        <li><Link href="/contact">Contact</Link></li>
+                                        <li><Link href="/about">About us</Link></li>
+                                        <li><Link href="/price">Pricing</Link></li>
+                                        <li><Link href="/refund">Refund</Link></li>
+                                        <li><Link href="/refund-estimate">Refund Estimate</Link></li>
+                                        <li><Link href="/privacy">Privacy & Policy</Link></li>
                                     </ul>
                                 </div>
                             </div>
@@ -52,8 +50,8 @@ export default function Footer() {
                                         <div className="contact-icon">
                                             <img src="/assets/img/icons/contact-phone2.svg" alt="" />
                                         </div>
-                                        <Link href="#">USA: +91 02 2585 0556</Link>
-                                        <Link href="#">UK: +61 02 2585 0556</Link>
+                                        <Link href="tel:+91 02 2585 0556">USA: +91 02 2585 0556</Link>
+                                        <Link href="tel:+91 02 2585 0556">UK: +61 02 2585 0556</Link>
                                     </div>
                                 </div>
                                 <div className="footer-contact">
@@ -61,8 +59,7 @@ export default function Footer() {
                                         <div className="contact-icon">
                                             <img src="/assets/img/icons/contact-email2.svg" alt="" />
                                         </div>
-                                        <Link href="#">Contacthelp@Demoui.co</Link>
-                                        <Link href="#">Info@consultia.co</Link>
+                                        <Link href="mailto:info@evotaxes.com" style={{marginTop:'10px'}}>info@evotaxes.com</Link>
                                     </div>
                                 </div>
                             </div>
@@ -70,7 +67,7 @@ export default function Footer() {
                     </div>
                     <div className="row align-items-center copyright2 padding-top">
                         <div className="col-lg-6">
-                            <p>© 2023 Consultia by fleexstudio. All Rights Reserved.</p>
+                            <p>@ 2024 evotax. All Rights Reserved.</p>
                         </div>
                         <div className="col-lg-6 text-right">
                             <div className="social social2">

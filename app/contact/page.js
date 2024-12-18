@@ -51,7 +51,7 @@ export default function Page() {
                     </div>
                     <div className="contact-box-content">
                       <p className="font-f-3">CALL US</p>
-                      <Link className="font-f-3" href="/tel:+11 1111 11000">
+                      <Link className="font-f-3" href="tel:+11 1111 11000">
                         +11 1111 11000
                       </Link>
                     </div>
@@ -66,9 +66,9 @@ export default function Page() {
                       <p className="font-f-3">EMAIL US</p>
                       <Link
                         className="font-f-3"
-                        href="/mailto:hello@evotaxes.com"
+                        href="mailto:hello@evotaxes.com"
                       >
-                        hello@evotaxes.com
+                        info@evotaxes.com
                       </Link>
                     </div>
                   </div>
@@ -81,7 +81,7 @@ export default function Page() {
                     <div className="contact-box-content">
                       <p className="font-f-3">HEADQUARTERS</p>
                       <Link className="font-f-3" href="#">
-                        New York, NY 94105, United States
+                      10535 Angeline Springs ln, Cypress, Texas, 77433, USA
                       </Link>
                     </div>
                   </div>
@@ -214,8 +214,7 @@ export default function Page() {
                       <Link href="#">New York Office</Link>
                     </h3>
                     <p>
-                      90 Abia Martin Drive, Ocean Beach, New York, NY 94105,
-                      United States
+                    10535 Angeline Springs ln, Cypress, Texas, 77433, USA
                     </p>
                     <Link href="#" className="theme-btn-13">
                       Get Direction

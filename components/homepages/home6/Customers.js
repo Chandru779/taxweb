@@ -20,7 +20,7 @@ export default function Customers() {
                             <div className="customers6-box">
                                 <div className="customers6-img-box-all">
                                     <div className="customers-box-img">
-                                        <img src="/assets/img/image/customers-img1.png" alt="" />
+                                        <img src="/assets/img/image/Michelle c.png" alt="" />
                                     </div>
                                     <div className="customers6-hadding">
                                         <h4><Link href="#" className="font-f-7">Michelle c.</Link></h4>
@@ -41,7 +41,7 @@ export default function Customers() {
                             <div className="customers6-box">
                                 <div className="customers6-img-box-all">
                                     <div className="customers-box-img">
-                                        <img src="/assets/img/image/customers-img2.png" alt="" />
+                                        <img src="/assets/img/image/Ravi S.png" alt="" />
                                     </div>
                                     <div className="customers6-hadding">
                                         <h4><Link href="#" className="font-f-7">Ravi S.</Link></h4>
@@ -62,7 +62,7 @@ export default function Customers() {
                             <div className="customers6-box">
                                 <div className="customers6-img-box-all">
                                     <div className="customers-box-img">
-                                        <img src="/assets/img/image/customers-img3.png" alt="" />
+                                        <img src="/assets/img/image/Emily J.png" alt="" />
                                     </div>
                                     <div className="customers6-hadding">
                                         <h4><Link href="#" className="font-f-7">Emily J.</Link></h4>
@@ -83,7 +83,7 @@ export default function Customers() {
                             <div className="customers6-box">
                                 <div className="customers6-img-box-all">
                                     <div className="customers-box-img">
-                                        <img src="/assets/img/image/customers-img4.png" alt="" />
+                                        <img src="/assets/img/image/Suresh.png" alt="" />
                                     </div>
                                     <div className="customers6-hadding">
                                         <h4><Link href="#" className="font-f-7">Suresh M.</Link></h4>
@@ -104,7 +104,7 @@ export default function Customers() {
                             <div className="customers6-box">
                                 <div className="customers6-img-box-all">
                                     <div className="customers-box-img">
-                                        <img src="/assets/img/image/customers-img5.png" alt="" />
+                                        <img src="/assets/img/image/Laura.png" alt="" />
                                     </div>
                                     <div className="customers6-hadding">
                                         <h4><Link href="#" className="font-f-7">Laura M.</Link></h4>
@@ -125,7 +125,7 @@ export default function Customers() {
                             <div className="customers6-box">
                                 <div className="customers6-img-box-all">
                                     <div className="customers-box-img">
-                                        <img src="/assets/img/image/customers-img6.png" alt="" />
+                                        <img src="/assets/img/image/Priya M.png" alt="" />
                                     </div>
                                     <div className="customers6-hadding">
                                         <h4><Link href="#" className="font-f-7">Priya M.</Link></h4>

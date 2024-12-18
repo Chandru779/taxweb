@@ -287,6 +287,10 @@ tr:nth-child(even) {
   font-family: "satoshi" !important;
 }
 
+.font-f-3 li{
+  font-family: "satoshi" !important;
+}
+
 .font-f-4 {
   font-family: "Canela" !important;
 }
